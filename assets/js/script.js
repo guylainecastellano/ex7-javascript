@@ -1,9 +1,9 @@
 function clickFunction(){
   var age = document.getElementById('age').value;
   if (age ==0) {
-    alert('calcul impossible de diviser par zéro');
+    alert('vous etes mineur');
   } else {
     var result = age > 18;
-    alert(result);
+    alert('vous etes majeur');
   }
 }
